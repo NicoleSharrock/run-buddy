@@ -150,7 +150,7 @@ body {
   .intro p {
       line-height: 1.7;
       color: #39a6b2;
-      width: 80%;
+      width: 100%; /* changed from 80% to 100% */
       font-size: 20px;
       display: inline-block;
       text-align: center;
@@ -160,7 +160,7 @@ body {
 
   /* what you do section */
 
-  .step {
+  .steps {
       background: #fce138;
   }
 
@@ -180,13 +180,14 @@ body {
   }
   
   .secondary-border {
-    border-color: #39a6b2;
+    border-color: #fce138; 
+    border-bottom: 1px solid #39a6b2;
   }
 
   .step h3 { /* changed step to steps */
       color: #024e76;
       font-size: 46px;
-      margin-top: 10px;
+      /* margin-top: 10px; */
       flex: 1 30%;
   }
 
@@ -214,7 +215,7 @@ body {
     width: 80%;
     border-bottom: 1px solid #39a6b2;
     display: flex;
-    flex-wrap: center;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
